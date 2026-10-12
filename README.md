@@ -1,4 +1,6 @@
-Arabic Football Fan Emotion Analysis
+<img width="73" height="59" alt="image" src="https://github.com/user-attachments/assets/14a607dd-c572-4a69-af77-35e89c9e3c0c" />
+
+Arabic Sentiment Anlaysis Of Jordan National Fotball Team 
 
  Arabic NLP, Transformer-Based Emotion Classification & Explainable AI
 
@@ -325,6 +327,8 @@ The analysis focuses on class distribution, frequently occurring words, and voca
 
 A class-distribution visualization is generated to examine the number of comments associated with each emotion.
 
+<img width="1069" height="595" alt="image" src="https://github.com/user-attachments/assets/461d52d9-741d-476a-8ec3-eaabe01ff355" />
+
 The results show that:
 
 - Pride is the most frequent emotion.
@@ -359,11 +363,7 @@ A trophy-shaped WordCloud mask is used to reflect the football-related context o
 | Anger | Orange |
 | Neutral | Purple |
 
-The generated image is saved as:
-
-`arabic_wordcloud_by_emotion.png`
-
-Suggested Figure: Arabic WordCloud by Emotion
+<img width="1883" height="1082" alt="download" src="https://github.com/user-attachments/assets/d1211cff-00c6-4e4c-b4ca-080eedadcd71" />
 
  3. Frequent Word Analysis
 
@@ -382,12 +382,18 @@ The heatmaps complement the WordClouds by displaying word-frequency relationship
 Suggested Figures:
 
 - AraBERT Word–Emotion Heatmap
+  
+- <img width="1193" height="1066" alt="image" src="https://github.com/user-attachments/assets/c5adfe88-d22a-4012-a5ec-e309a5a0a4b0" />
+
 - MARBERT Word–Emotion Heatmap
+  
+- <img width="1188" height="1059" alt="image" src="https://github.com/user-attachments/assets/f1794c55-9652-4737-a381-6d475fcd5781" />
+
 - ArabicBERT Word–Emotion Heatmap
 
+- <img width="1181" height="1059" alt="image" src="https://github.com/user-attachments/assets/e3e397be-d93c-43ef-bd64-f11bd645c7e1" />
+
 These visualizations are descriptive frequency analyses rather than direct explanations of Transformer model decisions.
-
-
 
  Data Splitting and Class Balancing
 
@@ -874,7 +880,6 @@ Suggested Figure: Pride SHAP Explanation
 Input Comment:
 
 > فرق عربيه ضعيفه
-
 Predicted Emotion: Anger
 
 Confidence: 99.70%
@@ -892,7 +897,6 @@ Suggested Figure: Anger SHAP Explanation
 Input Comment:
 
 > فوز اردني بنكهة مغربية
-
 Predicted Emotion: Neutral
 
 Confidence: 99.07%
@@ -963,12 +967,21 @@ The displayed confidence values are model-generated probabilities and should not
 The interactive prediction loop terminates when the user enters:
 
 `خروج`
+ Interactive Prediction and SHAP Visualization
 
-Suggested Figure: Interactive Prediction and SHAP Visualization
+The pride comment shape Explanation
 
+<img width="1233" height="737" alt="image" src="https://github.com/user-attachments/assets/b7cd3529-dcfa-4985-93f7-d106e180dd2f" />
 
+The Anger Comment Shape Explanation 
 
- Key Findings
+<img width="1222" height="723" alt="image" src="https://github.com/user-attachments/assets/adc7fa07-7692-4896-9cf3-c8a29daaa628" />
+
+The Neutral Comment Shape Explanation
+
+<img width="1222" height="717" alt="image" src="https://github.com/user-attachments/assets/1e4075dd-d7da-4618-97f8-16e4e5ecd0e4" />
+
+ Key Findings:
 
 The experiments provide several observations regarding emotion classification in Arabic football-related comments.
 
@@ -1265,27 +1278,11 @@ Potential future research directions include:
 
 These improvements are proposed directions for future work and are not implemented modifications to the original project.
 
-
-
- Authors
-
-This project was developed collaboratively as a **university Natural Language Processing project**.
-
 Contributors:
 
-- Toqa Abu Hamdan 
-- Rama Bawaaneh
-- Besan Abu Zraiq
-
-University:
-
-- Jordan University of Science and Technology (JUST)
-
-Course:
-
-- Natural Language Processing (NLP)
-
-
+-  contribution with { Rama Bawaneh, Besan Abu Zraiq}  GitHub profile link:
+-  https://github.com/ramabawaaneh9
+-  https://github.com/search?q=Besan-abu-zraiq&type=users
 
  Disclaimer
 
